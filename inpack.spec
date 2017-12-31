@@ -26,6 +26,7 @@ cd {{.inpack__pack_dir}}/deps
 rm -rf elasticsearch-{{.project__version}}
 
 cd {{.inpack__pack_dir}}
-install misc/config/elasticsearch.yml  {{.buildroot}}/config/elasticsearch.yml
+mkdir -p {{.buildroot}}/misc/config/
+install misc/config/elasticsearch.yml  {{.buildroot}}/misc/config/elasticsearch.yml
 
 %files
