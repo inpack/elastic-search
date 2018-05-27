@@ -1,6 +1,6 @@
 [project]
 name = elasticsearch
-version = 5.6.3
+version = 6.2.4
 vendor = elastic.co
 homepage = https://www.elastic.co/products/elasticsearch
 groups = dev/sys-runtime
