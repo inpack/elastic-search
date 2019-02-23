@@ -1,5 +1,5 @@
 [project]
-name = elasticsearch
+name = elastic-search
 version = 6.2.4
 vendor = elastic.co
 homepage = https://www.elastic.co/products/elasticsearch
@@ -7,7 +7,7 @@ groups = dev/sys-runtime
 description = distributed, RESTful search and analytics engine.
 
 %build
-PREFIX="{{.project__prefix}}"
+PREFIX="/opt/elastic/search"
 
 cd {{.inpack__pack_dir}}/deps
 
